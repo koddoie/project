@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: rgb(5, 7, 7);
+    color: rgb(218, 209, 209);
+    font-size: 50px;
+    font-family: 'Montserat';
+    padding: 24px;
+    cursor: pointer;
+}
+h2{
+    margin-top: 60px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
